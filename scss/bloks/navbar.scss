@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    background: $white;
+}
+
+.navbar-body {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+		&_link {
+            font-family: 'Lora',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: $gray;
+            padding: 30px 0px;
+		}
+}

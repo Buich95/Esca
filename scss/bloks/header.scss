@@ -1,0 +1,91 @@
+.header {
+    max-width: 100%;
+    width: 100%;
+    background-image: url(/img/header/Fon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+.header-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 17px;
+    margin: 0 auto;
+}
+.header-item-logo {
+    display: block;
+}
+.header-item-nav {
+    display: flex;
+    align-items: center;
+		&_link {
+            position: relative;
+            font-family: 'Oxygen',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            color:$white;
+            margin-left: 40px;   
+                      
+		}:hover{
+            transition: 0.1s;
+            text-decoration: underline;
+        }
+}
+.header-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+
+		&_title {
+            font-family: 'Lora',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 51px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: $white;
+            margin-bottom: 20px;
+		}
+
+		&_text {
+            font-family: 'Oxygen',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: $gray;
+            margin-bottom: 31px;
+		}
+        &_btn {
+            width: 200px;
+            padding: 22px 0px;
+            font-family: 'Oxygen',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
+            color: $white;
+            margin-bottom: 157px;
+            background: $orange;
+            border-radius: 3px;
+            transition:  0.4s;
+            
+            
+		}
+        .header-body_btn:hover {
+            background-color: #fff;
+            color: $orange;
+          }
+        
+}
